@@ -1,0 +1,19 @@
+body {
+    text-overflow: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#header-text {
+    color: grey;
+    font-weight: bold;
+}
+
+#footer-text {
+    color: grey;
+    font-style: italic;
+}
