@@ -17,6 +17,12 @@ header, footer {
     text-align: center;
 }
 
+span {
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
 .header-text {
     color: whitesmoke;
     font-style: normal;
