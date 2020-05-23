@@ -25,7 +25,7 @@ span {
 
 .header-text {
     color: whitesmoke;
-    font-style: normal;
+    font-style: oblique;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -49,28 +49,31 @@ span {
     height: auto;
     display: inline-block;
     text-align: center;
-    border-style: solid;
+    background-color: whitesmoke;
+    border-top: thin solid black;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
     border-radius: 15px;
-    border-width: 2px;
-    border-color: black;
-    background-color: whitesmoke
+    border-width: thin;
 }
 
 .col-2 {
-    width: 47.5%;
+    width: 47.8%;
 }
 
 .col-3 {
-    width: 30.5%;
+    width: 31.1%;
 }
 
 .col-4 {
-    width: 22.2%;
+    width: 22.7%;
 }
 
 @media only screen and (max-width: 1260px) {
     .text-box {
         background-color: black;
+        border-top: transparent;
     }
 
     .paragraph-text {
