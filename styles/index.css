@@ -46,23 +46,38 @@ span {
 
 .text-box {
     padding: 1%;
-    width: 47.5%;
     height: auto;
     display: inline-block;
     text-align: center;
     border-style: solid;
     border-radius: 15px;
-    border-width: 2.5px;
+    border-width: 2px;
     border-color: black;
     background-color: whitesmoke
 }
 
+.col-2 {
+    width: 47.5%;
+}
+
+.col-3 {
+    width: 30.5%;
+}
+
+.col-4 {
+    width: 22.2%;
+}
+
 @media only screen and (max-width: 1260px) {
     .text-box {
-        width: 100%;
         background-color: black;
     }
+
     .paragraph-text {
         color: whitesmoke;
+    }
+
+    .col-2, .col-3, .col-4 {
+        width: 100%;
     }
 }
