@@ -70,10 +70,16 @@ span {
     width: 22.7%;
 }
 
+.row {
+    width: 100%;
+}
+
 @media only screen and (max-width: 1260px) {
     .text-box {
         background-color: black;
         border-top: transparent;
+        border-radius: initial;
+        border-width: initial;
     }
 
     .paragraph-text {
