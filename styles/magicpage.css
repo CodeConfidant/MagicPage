@@ -44,6 +44,14 @@ span {
     font-size: 1.5rem;
 }
 
+.box-img {
+    height: 450px;
+    width: 100%;
+    display: block;
+    border: transparent;
+    border-radius: 15px;
+}
+
 .copy-heading {
     color: whitesmoke;
     font-style: italic;
@@ -56,6 +64,7 @@ span {
     height: auto;
     display: inline-block;
     text-align: center;
+    opacity: 60%;
     background-color: whitesmoke;
     border-top: thin solid black;
     border-left: transparent;
@@ -84,9 +93,6 @@ span {
 @media only screen and (max-width: 1260px) {
     .box {
         background-color: black;
-        border-top: transparent;
-        border-radius: initial;
-        border-width: initial;
     }
 
     .box-heading, .box-text {
