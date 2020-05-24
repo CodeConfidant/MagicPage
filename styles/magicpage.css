@@ -61,7 +61,8 @@ span {
 
 .box {
     padding: 1%;
-    height: auto;
+    height: 100%;
+    margin: 0%;
     display: inline-block;
     text-align: center;
     opacity: 60%;
@@ -90,7 +91,7 @@ span {
     width: 100%;
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1460px) {
     .box {
         background-color: black;
     }
