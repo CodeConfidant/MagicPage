@@ -23,28 +23,35 @@ span {
     text-align: center;
 }
 
-.header-text {
+.main-heading {
     color: whitesmoke;
     font-style: oblique;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 3rem;
 }
 
-.paragraph-text {
+.box-heading {
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box-text {
     color: black;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
 }
 
-.footer-text {
+.copy-heading {
     color: whitesmoke;
     font-style: italic;
     font-weight: lighter;
     font-size: 1rem;
 }
 
-.text-box {
+.box {
     padding: 1%;
     height: auto;
     display: inline-block;
@@ -75,14 +82,14 @@ span {
 }
 
 @media only screen and (max-width: 1260px) {
-    .text-box {
+    .box {
         background-color: black;
         border-top: transparent;
         border-radius: initial;
         border-width: initial;
     }
 
-    .paragraph-text {
+    .box-heading, .box-text {
         color: whitesmoke;
     }
 
