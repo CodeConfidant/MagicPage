@@ -45,7 +45,7 @@ span {
 }
 
 .box-img {
-    height: 450px;
+    height: 500px;
     width: 100%;
     display: block;
     border: transparent;
@@ -61,7 +61,7 @@ span {
 
 .box {
     padding: 1%;
-    height: 100%;
+    height: auto;
     margin: 0%;
     display: inline-block;
     text-align: center;
@@ -94,6 +94,10 @@ span {
 @media only screen and (max-width: 1460px) {
     .box {
         background-color: black;
+    }
+
+    .box-img {
+        width: 98%;
     }
 
     .box-heading, .box-text {
