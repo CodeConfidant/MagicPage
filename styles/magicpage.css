@@ -5,7 +5,6 @@ body {
     height: 100%;
     margin: 0%;
     padding: 0%;
-    opacity: 95%;
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
 }
@@ -60,14 +59,14 @@ span {
 }
 
 .box {
+    opacity: 70%;
     padding: 1%;
     height: auto;
     margin: 0%;
     display: inline-block;
     text-align: center;
-    opacity: 60%;
     background-color: whitesmoke;
-    border-top: thin solid black;
+    border-top: solid black;
     border-left: transparent;
     border-right: transparent;
     border-bottom: transparent;
