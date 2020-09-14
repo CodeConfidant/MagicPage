@@ -8,13 +8,13 @@
 
 ![Desktop Preview](img/preview-desktop.jpg "Desktop Preview")
 
-## ***Desktop Speed Score***
-
-![Desktop Speed Score](img/speedtest-desktop.jpg "Desktop Speed Score")
-
 ## ***Mobile Preview***
 
 ![Mobile Preview](img/preview-mobile.jpg "Mobile Preview")
+
+## ***Desktop Speed Score***
+
+![Desktop Speed Score](img/speedtest-desktop.jpg "Desktop Speed Score")
 
 ## ***Mobile Speed Score***
 
