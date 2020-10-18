@@ -16,12 +16,6 @@ header, footer {
     text-align: center;
 }
 
-span {
-    color: whitesmoke;
-    display: block;
-    text-align: center;
-}
-
 .main-heading {
     color: whitesmoke;
     font-style: oblique;

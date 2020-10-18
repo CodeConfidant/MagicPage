@@ -1,8 +1,6 @@
 # ***MagicPage***
 
-    A responsive & optimized web page for templating/rapid development.
-    
-    Note: The page refreshes every so often; can be changed by editing the content value in the appropriate meta tag.
+    A responsive web page template.
 
 ## ***Desktop Preview***
 
